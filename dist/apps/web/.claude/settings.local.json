@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"D:\\\\Crasenim website\\\\dist\\\\apps\\\\web\" -Recurse -Force)",
+      "Bash(Select-Object FullName, PSIsContainer)",
+      "Bash(Sort-Object FullName)",
+      "Bash(Format-Table -AutoSize)",
+      "Bash(npm run *)",
+      "Bash(npx vite *)",
+      "PowerShell(ls \"D:\\\\Crasenim website\\\\dist\\\\apps\\\\web\\\\\" | Select-Object Name, Mode)",
+      "PowerShell(ls \"D:\\\\Crasenim website\\\\dist\\\\apps\\\\web\\\\franchise\\\\\" | Select-Object Name; ls \"D:\\\\Crasenim website\\\\dist\\\\apps\\\\web\\\\careers\\\\\" | Select-Object Name)",
+      "Bash(Get-ChildItem -Path \"D:\\\\Crasenim website\\\\dist\\\\apps\\\\web\\\\careers\" -Recurse -Filter \"index.html\")",
+      "Bash(Select-Object FullName)"
+    ]
+  }
+}
